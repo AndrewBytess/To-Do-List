@@ -9,18 +9,20 @@
 </head>
 
 <body>
-  <div class="container">
-<header class = "header"> 
+  <div id="container">
+<header id = "header"> 
 <h1>To Do List</h1>
 <p>Create a list of tasks</p>
 </header>
-<section class="section">
-<form class ="form">
+<section id="section">
+<form id ="form">
 <label>Put the task you want to do!</label>
-  <input type = "text" placeholder="Study@Example"></input>
-  <button type="button" class="button" id="button" >Add</button>
+  <input id = "input" type = "text" placeholder="Study@Example"></input>
+  <button type="button" class="button" id="button" onclick = "addTask()" >Add</button>
 </form>  
-<p> </p>
+<ul id = "list">
+  
+</ul>
   
 </section>
 </div>

@@ -1,6 +1,34 @@
+:root{
+--turquoise-blue: #69fff1ff;
+--emerald: #63d471ff;
+--forest-green-crayola: #63a46cff;
+--dark-olive-green: #6a7152ff;
+--pine-tree: #233329ff;
+}
+
 body {
+color: white;
   margi: 0;
-  background:lightblue;
+  background:var(--pine-tree);
+}
+
+#container {
+display:grid;
+align-items:center;  
+
   
-  
+}
+#header{
+  text-align:center;
+}
+#section{
+display: grid;
+grid-template-columns: 200px 1fr;
+align-items:center;
+}
+#button {
+  width:100px;
+  height:25px;
+  border-radius: 5%;
+  border:none;
 }
