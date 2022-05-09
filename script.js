@@ -1,7 +1,10 @@
 function addItem(tasks){
+  let ul = document.createElement("ul");
   let li = document.createElement("li");
   let liText = document.createTextNode(tasks);
-  return li.appendChild(liText)
+  li.appendChild(liText)
+  ul.appendChild(li); 
+  return  ul.appendChild(li)
 }
 
 

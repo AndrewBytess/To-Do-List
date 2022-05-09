@@ -9,26 +9,37 @@
 body {
 color: white;
   margi: 0;
-  background:var(--pine-tree);
+   background:var(--pine-tree); 
 }
 
 #container {
 display:grid;
+    width:100%;
 align-items:center;  
-
+justify-content: center;
   
 }
 #header{
-  text-align:center;
+  
+  margin: 0;
 }
 #section{
+
 display: grid;
 grid-template-columns: 200px 1fr;
 align-items:center;
 }
+#input{
+  width:200px;
+  margin-bottom:10px ;
+  
+}
+
 #button {
   width:100px;
   height:25px;
   border-radius: 5%;
+ background: var(--turquoise-blue);
   border:none;
+  text-weigth:bold;
 }
